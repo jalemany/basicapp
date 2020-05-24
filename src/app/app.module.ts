@@ -9,11 +9,15 @@ import { HttpClientModule }     from '@angular/common/http';
 // Components
 import { AppComponent }         from './app.component';
 import { ListadoClienteComponent } from './components/listado-cliente/listado-cliente.component';
+import { HomeComponent } from './components/home/home.component';
+import { EuroPipe } from './pipes/euro.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListadoClienteComponent
+    ListadoClienteComponent,
+    HomeComponent,
+    EuroPipe
   ],
   imports: [
     AppRoutingModule,
