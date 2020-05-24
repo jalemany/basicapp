@@ -2,12 +2,13 @@ import { Direccion } from './direccion';
 
 export class Cliente {
 
-    codigo:number;
+    id: number;
+
     nombre:string;
     direccion: Direccion;
 
-    constructor(codigo:number, nombre:string, direccion:Direccion) {
-        this.codigo = codigo;
+    constructor(id?:number, nombre?:string, direccion?:Direccion) {
+        this.id = id;
         this.nombre = nombre;
         this.direccion = direccion;
     }

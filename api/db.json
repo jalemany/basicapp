@@ -1,68 +1,111 @@
 {
-    "productos":[
-        {
-            "codigo":100,
-            "nombre":"Producto 100",
-            "precio": 50.0,
-            "fechaAlta":"2014-02-01T09:28:56.321-10:00",
-            "familia":"hardware",
-            "descatalogado":false
-        },
-        {
-            "codigo":200,
-            "nombre":"Producto 200",
-            "precio": 70.0,
-            "fechaAlta":"2014-04-05T09:28:56.321-10:00",
-            "familia":"software",
-            "descatalogado":true
-        }
-    ],
-    "clientes":[
-        {
-            "codigo":1,
-            "nombre":"ADEPSA",
-            "direccion":{
-                "direccion":"Avenida de los Pinos",
-                "poblacion":"Madrid",
-                "codigoPostal":"85240",
-                "provincia":"Madrid",
-                "pais":"España"
-            }
-        },
-        {
-            "codigo":2,
-            "nombre":"Comercial Zilos, S.L.",
-            "direccion":{
-                "direccion":"c/ Muntaner, 234 planta 2",
-                "poblacion":"Barcelona",
-                "codigoPostal":"08020",
-                "provincia":"Barcelona",
-                "pais":"España"
-            }
-        },
-        {
-            "codigo":3,
-            "nombre":"José Ramón Vilchez",
-            "direccion":{
-                "direccion":"Avda. Montserrat, 24 4º 3ª",
-                "poblacion":"Barcelona",
-                "codigoPostal":"08025",
-                "provincia":"Barcelona",
-                "pais":"España"
-            }
-        },
-        {
-            "codigo":4,
-            "nombre":"InfoNet S.L.",
-            "direccion":{
-                "direccion":"Carrer Pujades, 99 3er 2ª",
-                "poblacion":"Barcelona",
-                "codigoPostal":"08009",
-                "provincia":"Barcelona",
-                "pais":"España"
-            }
-        }
-
-    ]
-
+  "productos": [
+    {
+      "codigo": 100,
+      "nombre": "Producto 100",
+      "precio": 50,
+      "fechaAlta": "2014-02-01T09:28:56.321-10:00",
+      "familia": "hardware",
+      "descatalogado": false
+    },
+    {
+      "codigo": 200,
+      "nombre": "Producto 200",
+      "precio": 70,
+      "fechaAlta": "2014-04-05T09:28:56.321-10:00",
+      "familia": "software",
+      "descatalogado": true
+    }
+  ],
+  "clientes": [
+    {
+      "codigo": 1,
+      "nombre": "ADEPSA",
+      "direccion": {
+        "direccion": "Avenida de los Pinos",
+        "poblacion": "Madrid",
+        "codigoPostal": "85240",
+        "provincia": "Madrid",
+        "pais": "España"
+      }
+    },
+    {
+      "codigo": 2,
+      "nombre": "Comercial Zilos, S.L.",
+      "direccion": {
+        "direccion": "c/ Muntaner, 234 planta 2",
+        "poblacion": "Barcelona",
+        "codigoPostal": "08020",
+        "provincia": "Barcelona",
+        "pais": "España"
+      }
+    },
+    {
+      "codigo": 3,
+      "nombre": "José Ramón Vilchez",
+      "direccion": {
+        "direccion": "Avda. Montserrat, 24 4º 3ª",
+        "poblacion": "Barcelona",
+        "codigoPostal": "08025",
+        "provincia": "Barcelona",
+        "pais": "España"
+      }
+    },
+    {
+      "codigo": 4,
+      "nombre": "InfoNet S.L.",
+      "direccion": {
+        "direccion": "Carrer Pujades, 99 3er 2ª",
+        "poblacion": "Barcelona",
+        "codigoPostal": "08009",
+        "provincia": "Barcelona",
+        "pais": "España"
+      }
+    },
+    {
+      "id": 666,
+      "codigo": 666,
+      "nombre": "NUEVO NOMBRE",
+      "direccion": {
+        "direccion": "direccion",
+        "poblacion": "población",
+        "codigoPostal": "codigo posgtal",
+        "provincia": "provincia",
+        "pais": "pais"
+      }
+    },
+    {
+      "id": 12144,
+      "nombre": "NUEVO NOMBRE",
+      "direccion": {
+        "direccion": "direccion",
+        "poblacion": "población",
+        "codigoPostal": "codigo posgtal",
+        "provincia": "provincia",
+        "pais": "pais"
+      }
+    },
+    {
+      "id": 19366,
+      "nombre": "NUEVO NOMBRE",
+      "direccion": {
+        "direccion": "direccion",
+        "poblacion": "población",
+        "codigoPostal": "codigo posgtal",
+        "provincia": "provincia",
+        "pais": "pais"
+      }
+    },
+    {
+      "id": 12956,
+      "nombre": "NUEVO NOMBRE",
+      "direccion": {
+        "direccion": "direccion",
+        "poblacion": "población",
+        "codigoPostal": "codigo posgtal",
+        "provincia": "provincia",
+        "pais": "pais"
+      }
+    }
+  ]
 }

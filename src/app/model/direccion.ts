@@ -6,7 +6,7 @@ export class Direccion {
     provincia:string;
     pais:string;
 
-    constructor(direccion:string,poblacion:string,codigoPosta:string,provincia:string,pais:string){
+    constructor(direccion?:string,poblacion?:string,codigoPosta?:string,provincia?:string,pais?:string){
         this.direccion = direccion;
         this.poblacion = poblacion;
         this.codigoPostal = codigoPosta;

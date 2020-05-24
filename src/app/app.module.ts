@@ -11,13 +11,17 @@ import { AppComponent }         from './app.component';
 import { ListadoClienteComponent } from './components/listado-cliente/listado-cliente.component';
 import { HomeComponent } from './components/home/home.component';
 import { EuroPipe } from './pipes/euro.pipe';
+import { AltaClienteComponent } from './components/alta-cliente/alta-cliente.component';
+import { FichaClienteComponent } from './components/ficha-cliente/ficha-cliente.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListadoClienteComponent,
     HomeComponent,
-    EuroPipe
+    EuroPipe,
+    AltaClienteComponent,
+    FichaClienteComponent
   ],
   imports: [
     AppRoutingModule,

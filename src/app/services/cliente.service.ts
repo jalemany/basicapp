@@ -22,7 +22,7 @@ export class ClienteService {
   }
 
   create(cliente:Cliente):Observable<any> {
-    return this.httpClient.post<any>(URL, cliente);
+    return this.httpClient.post<Cliente>(URL, cliente);
   }
 
   delete(codigo:number):Observable<any> {
