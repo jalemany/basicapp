@@ -1,7 +1,7 @@
 {
   "productos": [
     {
-      "codigo": 100,
+      "id": 100,
       "nombre": "Producto 100",
       "precio": 50,
       "fechaAlta": "2014-02-01T09:28:56.321-10:00",
@@ -9,7 +9,7 @@
       "descatalogado": false
     },
     {
-      "codigo": 200,
+      "id": 200,
       "nombre": "Producto 200",
       "precio": 70,
       "fechaAlta": "2014-04-05T09:28:56.321-10:00",
@@ -19,7 +19,7 @@
   ],
   "clientes": [
     {
-      "codigo": 1,
+      "id": 1,
       "nombre": "ADEPSA",
       "direccion": {
         "direccion": "Avenida de los Pinos",
@@ -30,7 +30,7 @@
       }
     },
     {
-      "codigo": 2,
+      "id": 2,
       "nombre": "Comercial Zilos, S.L.",
       "direccion": {
         "direccion": "c/ Muntaner, 234 planta 2",
@@ -41,7 +41,7 @@
       }
     },
     {
-      "codigo": 3,
+      "id": 3,
       "nombre": "José Ramón Vilchez",
       "direccion": {
         "direccion": "Avda. Montserrat, 24 4º 3ª",
@@ -52,7 +52,7 @@
       }
     },
     {
-      "codigo": 4,
+      "id": 4,
       "nombre": "InfoNet S.L.",
       "direccion": {
         "direccion": "Carrer Pujades, 99 3er 2ª",
@@ -98,6 +98,17 @@
     },
     {
       "id": 12956,
+      "nombre": "NUEVO NOMBRE",
+      "direccion": {
+        "direccion": "direccion",
+        "poblacion": "población",
+        "codigoPostal": "codigo posgtal",
+        "provincia": "provincia",
+        "pais": "pais"
+      }
+    },
+    {
+      "id": 8781,
       "nombre": "NUEVO NOMBRE",
       "direccion": {
         "direccion": "direccion",
