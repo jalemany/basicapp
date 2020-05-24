@@ -1,0 +1,40 @@
+{
+    "productos":[
+        {
+            "codigo":100,
+            "nombre":"Producto 100",
+            "precio": 50.0,
+            "fechaAlta":"2014-02-01T09:28:56.321-10:00",
+            "familia":"hardware",
+            "descatalogado":false
+        },
+        {
+            "codigo":200,
+            "nombre":"Producto 200",
+            "precio": 70.0,
+            "fechaAlta":"2014-04-05T09:28:56.321-10:00",
+            "familia":"software",
+            "descatalogado":true
+        }
+    ],
+    "clientes":[
+        {
+            "codigo":1,
+            "nombre":"nombre cliente 1"
+        },
+        {
+            "codigo":2,
+            "nombre":"nombre cliente 2"
+        },
+        {
+            "codigo":3,
+            "nombre":"nombre cliente 3"
+        },
+        {
+            "codigo":4,
+            "nombre":"nombre cliente 4"
+        }
+
+    ]
+
+}
