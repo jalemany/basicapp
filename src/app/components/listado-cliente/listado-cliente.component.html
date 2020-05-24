@@ -1,0 +1,25 @@
+<h3>Listado de Clientes</h3>
+<table *ngIf="clientes" class="table">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Nombre Completo</th>
+            <th>Dirección</th>
+            <th>Población</th>
+            <th>Código Postal</th>
+            <th>Provincia</th>
+            <th>País</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cliente of clientes">
+            <td>{{cliente.codigo}}</td>
+            <td>{{cliente.nombre}}</td>
+            <td>{{cliente.direccion.direccion}}</td>
+            <td>{{cliente.direccion.poblacion}}</td>
+            <td>{{cliente.direccion.codigoPostal}}</td>
+            <td>{{cliente.direccion.provincia}}</td>
+            <td>{{cliente.direccion.pais}}</td>
+        </tr>
+    </tbody>
+</table>

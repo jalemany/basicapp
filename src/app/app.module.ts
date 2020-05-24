@@ -1,16 +1,24 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { NgModule }             from '@angular/core';
+
+// Modules
+import { AppRoutingModule }     from './app-routing.module';
+import { BrowserModule }        from '@angular/platform-browser';
+import { HttpClientModule }     from '@angular/common/http';
+
+// Components
+import { AppComponent }         from './app.component';
+import { ListadoClienteComponent } from './components/listado-cliente/listado-cliente.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListadoClienteComponent
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
-    AppRoutingModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -20,19 +20,47 @@
     "clientes":[
         {
             "codigo":1,
-            "nombre":"nombre cliente 1"
+            "nombre":"ADEPSA",
+            "direccion":{
+                "direccion":"Avenida de los Pinos",
+                "poblacion":"Madrid",
+                "codigoPostal":"85240",
+                "provincia":"Madrid",
+                "pais":"España"
+            }
         },
         {
             "codigo":2,
-            "nombre":"nombre cliente 2"
+            "nombre":"Comercial Zilos, S.L.",
+            "direccion":{
+                "direccion":"c/ Muntaner, 234 planta 2",
+                "poblacion":"Barcelona",
+                "codigoPostal":"08020",
+                "provincia":"Barcelona",
+                "pais":"España"
+            }
         },
         {
             "codigo":3,
-            "nombre":"nombre cliente 3"
+            "nombre":"José Ramón Vilchez",
+            "direccion":{
+                "direccion":"Avda. Montserrat, 24 4º 3ª",
+                "poblacion":"Barcelona",
+                "codigoPostal":"08025",
+                "provincia":"Barcelona",
+                "pais":"España"
+            }
         },
         {
             "codigo":4,
-            "nombre":"nombre cliente 4"
+            "nombre":"InfoNet S.L.",
+            "direccion":{
+                "direccion":"Carrer Pujades, 99 3er 2ª",
+                "poblacion":"Barcelona",
+                "codigoPostal":"08009",
+                "provincia":"Barcelona",
+                "pais":"España"
+            }
         }
 
     ]
