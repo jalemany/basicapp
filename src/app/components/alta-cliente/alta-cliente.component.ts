@@ -53,7 +53,6 @@ export class AltaClienteComponent implements OnInit{
     cliente.direccion = direccion;
 
     this.clienteService.create(cliente).subscribe(data => {
-      console.log(data);
       this.router.navigate(["clientes"]);
     });
   }

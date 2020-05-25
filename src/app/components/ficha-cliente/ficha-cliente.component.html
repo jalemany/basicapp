@@ -1,1 +1,33 @@
-<p>ficha-cliente works!</p>
+<div class="col-xs-1" style="margin-top: 40px;">
+    <table class="table">
+        <tr>
+            <th>Código</th>
+            <td>{{cliente.id}}</td>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <td>{{cliente.nombre}}</td>
+        </tr>
+        <tr>
+            <th>Dirección</th>
+            <td>{{cliente.direccion.direccion}}</td>
+        </tr>
+        <tr>
+            <th>Población</th>
+            <td>{{cliente.direccion.poblacion}}</td>
+        </tr>
+        <tr>
+            <th>Código Postal</th>
+            <td>{{cliente.direccion.codigoPostal}}</td>
+        </tr>
+        <tr>
+            <th>Provincia</th>
+            <td>{{cliente.direccion.provincia}}</td>
+        </tr>
+        <tr>
+            <th>País</th>
+            <td>{{cliente.direccion.pais}}</td>
+        </tr>
+    </table>
+    
+</div>
