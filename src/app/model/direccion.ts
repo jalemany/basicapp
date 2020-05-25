@@ -1,10 +1,10 @@
 export class Direccion {
     
-    direccion:string;
-    poblacion:string;
-    codigoPostal:string;
-    provincia:string;
-    pais:string;
+    direccion:string = null;
+    poblacion:string = null;
+    codigoPostal:string = null;
+    provincia:string = null;
+    pais:string = null;
 
     constructor(direccion?:string,poblacion?:string,codigoPosta?:string,provincia?:string,pais?:string){
         this.direccion = direccion;

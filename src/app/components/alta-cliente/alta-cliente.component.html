@@ -1,3 +1,64 @@
 <h3>Alta Cliente</h3>
-<button type="button" class="btn btn-primary" (click)="create()">save</button>
-{{newCliente | json}}
+<form [formGroup]="clienteForm">
+    
+    <div class="form-group w-25">
+        <label for="id">Código</label>
+        <input type="number" class="form-control" id="id" formControlName="id">
+    </div>
+
+    <div class="form-group">
+        <label for="nombre">Nombre</label>
+        <input type="string" class="form-control" id="nombre" formControlName="nombre">
+    </div>
+
+    <div class="form-group">
+        <label for="direccion">Dirección</label>
+        <input type="string" class="form-control" id="direccion" formControlName="direccion">
+    </div>
+
+    <div class="form-group">
+        <label for="poblacion">Población</label>
+        <input type="string" class="form-control" id="poblacion" formControlName="poblacion">
+    </div>
+
+    <div class="form-group w-25">
+        <label for="codigoPostal">Código Postal</label>
+        <input type="string" class="form-control" id="codigoPostal" formControlName="codigoPostal">
+    </div>
+
+    <div class="form-group">
+        <label for="provincia">Provincia</label>
+        <input type="string" class="form-control" id="provincia" formControlName="provincia">
+    </div>
+
+    <div class="form-group">
+        <label for="pais">País</label>
+        <input type="string" class="form-control" id="pais" formControlName="pais">
+    </div>
+
+    <button class="btn btn-primary" [disabled]="!clienteForm.valid" data-toggle="modal" data-target="#exampleModal">Save</button>
+
+</form>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmación</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+              ¿Deseas crear el cliente en la base de datos?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" (click)="create()">Crear</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
