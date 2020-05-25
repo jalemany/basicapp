@@ -1,18 +1,21 @@
-# Para instalar el servidor JSON...
+## Para instalar un servidor de JSON "fake" en un nuevo proyecto...
 
-npm install --save json-server
+1 - npm install --save json-server
+2 - Se deben crear la carpeta api con los ficheros db.json y routes.json
+3 - Se debe crear un script en package.json
 
 https://blog.angulartraining.com/fake-your-angular-backend-until-you-make-it-8d145f713e14
 
+http://localhost:3000/api/clientes
+http://localhost:3000/api/productos
 
-# Pedigest
+## Aplicación básica de ejemplo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
 Para descargar las librerías del proyecto:
 
 npm install
-
 
 ## Development server
 
