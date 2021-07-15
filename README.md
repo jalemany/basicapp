@@ -1,6 +1,7 @@
 ## Para instalar un servidor de JSON "fake" en un nuevo proyecto...
 
 1.- npm install --save json-server
+
 2.- Se deben crear la carpeta api con los ficheros db.json y routes.json
 
 - En db.json escribimos nuestro modelo. Con datos de calidad.
