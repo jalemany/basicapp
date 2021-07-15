@@ -1,26 +1,27 @@
 ## Para instalar un servidor de JSON "fake" en un nuevo proyecto...
 
-1.- npm install --save json-server\
-2.- Se deben crear la carpeta api con los ficheros db.json y routes.json\
-3.- Se debe crear un script en package.json\
+1.- npm install --save json-server
+2.- Se deben crear la carpeta api con los ficheros db.json y routes.json
 
-https://blog.angulartraining.com/fake-your-angular-backend-until-you-make-it-8d145f713e14\
+- En db.json escribimos nuestro modelo. Con datos de calidad.
+- En routes.json incorporamos el nombre base del end-point
 
-http://localhost:3000/api/clientes\
-http://localhost:3000/api/productos
+   "/api/*":"/$1"
 
-## Aplicación básica de ejemplo
+3.- Se debe crear un script en package.json
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
+- "api": "json-server api/db.json --routes api/routes.json --no´cors=true"
 
-Para descargar las librerías del proyecto:
+4.- Para levantar el servicio (el backend de "mentira")
 
-npm install
+- npm run api
 
-## Development server
+5- El servicio se levanta por defecto en el puerto 3000
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- http://localhost:3000/api/clientes
+- http://localhost:3000/api/productos
 
-## Build
+6.- Documentación de json-server:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+ - https://github.com/typicode/json-server/blob/master/README.md
+ - https://blog.angulartraining.com/fake-your-angular-backend-until-you-make-it-8d145f713e14
